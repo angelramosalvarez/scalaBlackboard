@@ -1,0 +1,9 @@
+
+# User-specific stuff:
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/libraries
+
+/target
+/.idea
+
