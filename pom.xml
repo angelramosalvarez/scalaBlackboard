@@ -4,9 +4,27 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>assignments</groupId>
-    <artifactId>scalaCoursera</artifactId>
+    <groupId>com.github.angelramosalvarez</groupId>
+    <artifactId>scalaBlackboard</artifactId>
     <version>1.0</version>
+
+    <name>scalaBlackboard</name>
+    <description>Scala </description>
+    <url>https://github.com/pjgg/radioactiveMongoTemplate</url>
+    <developers>
+        <developer>
+            <id>angelramosalvarez</id>
+            <name>Angel Ramos</name>
+            <roles>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
+
+
+    <prerequisites>
+        <maven>3.0.4</maven>
+    </prerequisites>
 
 
     <properties>
@@ -27,13 +45,6 @@
             <groupId>org.scalatest</groupId>
             <artifactId>scalatest_2.11</artifactId>
             <version>2.2.6</version>
-        </dependency>
-
-        <!-- JSON -->
-        <dependency>
-            <groupId>com.typesafe.play</groupId>
-            <artifactId>play-json_2.11</artifactId>
-            <version>2.4.6</version>
         </dependency>
 
 
