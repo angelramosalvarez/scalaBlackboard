@@ -1,15 +1,14 @@
 # Scala Blackboard
 
-This contain some examples in order to understand Scala concepts
+This contain some examples in order to understand Scala concepts.
 
- Examples
- --------
+  --------
 
 ###### HigherOrderFunctions
- Functions that take other functions as parameters or that return functions as results.
+ - Functions that take other functions as parameters or that return functions as results.
 
 ###### ByValueByName:
-- Call by name has the advantage that a function argument is not evaluated if the parameter is unused in the evaluation of the body.
+- Call by name: has the advantage that a function argument is not evaluated if the parameter is unused in the evaluation of the body.
 - Call-by-value: has the advantage that it evaluates every function argument only once.
 
 ######  FoldLeftAndReduceLeft:
