@@ -19,3 +19,6 @@ This contain some examples in order to understand Scala concepts.
 - Map: works by applying a function to each element in the list.
 - FlatMap: works applying a function that returns a sequence for each element in the list, and flattening the results into the original list
 
+###### Implicits
+- Implicit parameter: are method parameters which do not have to be explicitly passed to the method when it is called,
+                      the Scala compiler will look for the missing parameter in the current scope.
